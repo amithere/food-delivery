@@ -34,6 +34,7 @@ export class RestaurantListComponent implements OnInit {
 
     const count = JSON.parse(localStorage.getItem('cartItems') || '[]').length;
     this.commService.setCartCount(count);
+    console.log('TEST');
   }
 
   selectRestaurant(selectedRestaurant: any) {}
