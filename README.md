@@ -1,7 +1,7 @@
 # Test Credentials to login
 
 Email - testuser@gmail.com, 
-Pasword - testuser
+Password - testuser
 
 # FoodDelivery
 
