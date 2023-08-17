@@ -1,0 +1,20 @@
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" *ngFor="let restaurant of restaurantList">
+    <div class="card">
+      <img
+        src="{{ restaurant.imageSrc }}"
+        alt="image"
+        class="card-img-top"
+        [routerLink]="['restaurant-detail', restaurant.restaurantName]"
+      />
+      <div class="card-body">
+        <h5 class="card-title">{{ restaurant.restaurantName }}</h5>
+        <span>{{ restaurant.rating }} </span> <i class="fa fa-star"></i>
+        <h6>Estimate Delivery Time - {{ restaurant.deliveryTimeEstimate }}</h6>
+        <p class="card-text">
+          {{ restaurant.description }}
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

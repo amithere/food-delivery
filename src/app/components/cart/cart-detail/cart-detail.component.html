@@ -1,0 +1,88 @@
+<div>
+  <h3 class="text-danger">My Cart</h3>
+</div>
+<br />
+<br />
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Item</th>
+      <th scope="col">Price</th>
+      <th scope="col">Add/Remove</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of cartItems; index as i">
+      <th scope="row">{{ i + 1 }}</th>
+      <td>{{ item.name }}</td>
+      <td>{{ item.price }}</td>
+      <td>
+        <!-- Change the `data-field` of buttons and `name` of input field's for multiple plus minus buttons-->
+        <div class="input-group plus-minus-input">
+          <div class="input-group-button">
+            <button
+              type="button"
+              class="button hollow circle"
+              data-quantity="minus"
+              data-field="quantity"
+              (click)="updateQuantity('REMOVE', item)"
+            >
+              <i class="fa fa-minus" aria-hidden="true"></i>
+            </button>
+          </div>
+          <input
+            style="width: 50px"
+            type="number"
+            name="quantity"
+            [(ngModel)]="item.quantity"
+          />
+          <div class="input-group-button">
+            <button
+              type="button"
+              class="button hollow circle"
+              data-quantity="plus"
+              data-field="quantity"
+              (click)="updateQuantity('ADD', item)"
+            >
+              <i class="fa fa-plus" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br />
+<br />
+<div>
+  <h3 class="text-danger">Delivery Address</h3>
+</div>
+<div class="card-group">
+  <div class="card" *ngFor="let item of userAddressList; index as index">
+    <div class="card-body">
+      <h6 class="card-title">{{ item.type }}</h6>
+      <div class="card-text">{{ item.address }}</div>
+      <div class="card-text">
+        {{ item.city }}, {{ item.state }} - {{ item.pincode }}
+      </div>
+      <div class="card-text">{{ item.phone }}</div>
+      <button
+        class="btn btn-primary"
+        *ngIf="!item.selected"
+        (click)="selectAddress(index)"
+      >
+        Select
+      </button>
+    </div>
+  </div>
+</div>
+<br />
+<br />
+<button
+  type="button"
+  class="btn btn-success"
+  [routerLink]="['../order-success']"
+>
+  Proceed to Checkout
+</button>

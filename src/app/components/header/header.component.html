@@ -1,0 +1,44 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <div class="col-md-10">
+      <a class="navbar-brand" href="#"><b>Food Delivery</b></a>
+    </div>
+    <div
+      *ngIf="loggedIn"
+      class="collapse navbar-collapse col-md-2"
+      style="align-items: right"
+    >
+      <div class="dropdown" class="col-md-9">
+        <button
+          class="btn btn-secondary dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton"
+          data-toggle="dropdown"
+          aria-haspopup="true"
+          aria-expanded="false"
+        >
+          Profile
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Personal Information</a>
+          <a class="dropdown-item" [routerLink]="['manage-address']"
+            >Manage Address</a
+          >
+          <a class="dropdown-item" href="#">Offers</a>
+          <a class="dropdown-item" (click)="logOut()">Log Out</a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <a class="navbar-brand" [routerLink]="['cart']"
+          ><i
+            class="fa fa-shopping-bag"
+            style="font-size: 30px; color: white"
+          ></i>
+          <span class="badge badge-warning" id="lblCartCount">
+            {{ cartCount }}</span
+          >
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

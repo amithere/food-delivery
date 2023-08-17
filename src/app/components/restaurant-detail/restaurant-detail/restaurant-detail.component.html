@@ -1,0 +1,55 @@
+<div>
+  <h3 class="text-danger">Food Menu</h3>
+</div>
+<div class="card-group">
+  <div class="card" *ngFor="let item of selectedRestaurantData[0]?.menuItems">
+    <div class="card-body">
+      <h5 class="card-title">{{ item.name }}</h5>
+      <p class="card-text">{{ item.price }}</p>
+      <a class="btn btn-primary" *ngIf="!item.added" (click)="addToCart(item)"
+        >Add</a
+      >
+      <a
+        class="btn btn-danger"
+        *ngIf="item.added"
+        (click)="removeFromCart(item)"
+        >Remove</a
+      >
+    </div>
+  </div>
+</div>
+<br />
+<br />
+<div>
+  <h3 class="text-danger">User Feedbacks</h3>
+</div>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col" *ngFor="let review of selectedRestaurantData[0]?.reviews">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">{{ review.userName }}</h5>
+        <p class="card-text">
+          {{ review.review }}
+        </p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+<br />
+<br />
+<div>
+  <h3 class="text-danger">Contact Us</h3>
+</div>
+<div class="row">
+  <div *ngFor="let address of selectedRestaurantData[0]?.addressList">
+    <div>{{ address.address }}</div>
+    <div>{{ address.city }}, {{ address.state }}</div>
+    <div>{{ address.pincode }}</div>
+    <div>{{ address.phone }}</div>
+  </div>
+</div>
+<br />
+<br />

@@ -1,0 +1,266 @@
+[
+  {
+    "restaurantName": "Barbeque Nation",
+    "menuItems": [
+      { "name": "Shahi Paneer", "price": "₹200" },
+      { "name": "Dal Makhni", "price": "₹100" },
+      { "name": "Rice", "price": "₹50" },
+      { "name": "Mix Veg", "price": "₹100" },
+      { "name": "Mushroom", "price": "₹50" },
+      { "name": "Pizza", "price": "₹150" },
+      { "name": "Pasta", "price": "₹100" },
+      { "name": "Ice Cream", "price": "₹50" },
+      { "name": "Garlic Naan", "price": "₹20" }
+    ],
+    "addressList": [
+      {
+        "address": "31 South Bombay",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "123456",
+        "phone": "9876543210"
+      }
+    ],
+    "reviews": [
+      {
+        "userName": "amit123",
+        "review": "It was very good experience"
+      },
+      {
+        "userName": "divya456",
+        "review": "Great food, Great place"
+      }
+    ]
+  },
+  {
+    "restaurantName": "Le Chef",
+    "menuItems": [
+      { "name": "Shahi Paneer", "price": "₹200" },
+      { "name": "Dal Makhni", "price": "₹100" },
+      { "name": "Rice", "price": "₹50" },
+      { "name": "Mix Veg", "price": "₹100" },
+      { "name": "Mushroom", "price": "₹50" },
+      { "name": "Pizza", "price": "₹150" },
+      { "name": "Pasta", "price": "₹100" },
+      { "name": "Ice Cream", "price": "₹50" },
+      { "name": "Garlic Naan", "price": "₹20" }
+    ],
+    "addressList": [
+      {
+        "address": "31 South Bombay",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "100444",
+        "phone": "9876543210"
+      }
+    ],
+    "reviews": [
+      {
+        "userName": "amit123",
+        "review": "It was very good experience"
+      },
+      {
+        "userName": "divya456",
+        "review": "Great food, Great place"
+      }
+    ]
+  },
+  {
+    "restaurantName": "Delhi Zaika",
+    "menuItems": [
+      { "name": "Shahi Paneer", "price": "₹200" },
+      { "name": "Dal Makhni", "price": "₹100" },
+      { "name": "Rice", "price": "₹50" },
+      { "name": "Mix Veg", "price": "₹100" },
+      { "name": "Mushroom", "price": "₹50" },
+      { "name": "Pizza", "price": "₹150" },
+      { "name": "Pasta", "price": "₹100" },
+      { "name": "Ice Cream", "price": "₹50" },
+      { "name": "Garlic Naan", "price": "₹20" }
+    ],
+    "addressList": [
+      {
+        "address": "31 South Bombay",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "123456",
+        "phone": "9876543210"
+      }
+    ],
+    "reviews": [
+      {
+        "userName": "amit123",
+        "review": "It was very good experience"
+      },
+      {
+        "userName": "divya456",
+        "review": "Great food, Great place"
+      }
+    ]
+  },
+  {
+    "restaurantName": "Tikkaway",
+    "menuItems": [
+      { "name": "Shahi Paneer", "price": "₹200" },
+      { "name": "Dal Makhni", "price": "₹100" },
+      { "name": "Rice", "price": "₹50" },
+      { "name": "Mix Veg", "price": "₹100" },
+      { "name": "Mushroom", "price": "₹50" },
+      { "name": "Pizza", "price": "₹150" },
+      { "name": "Pasta", "price": "₹100" },
+      { "name": "Ice Cream", "price": "₹50" },
+      { "name": "Garlic Naan", "price": "₹20" }
+    ],
+    "addressList": [
+      {
+        "address": "31 South Bombay",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "123456",
+        "phone": "9876543210"
+      }
+    ],
+    "reviews": [
+      {
+        "userName": "amit123",
+        "review": "It was very good experience"
+      },
+      {
+        "userName": "divya456",
+        "review": "Great food, Great place"
+      }
+    ]
+  },
+  {
+    "restaurantName": "Curry Kingdom",
+    "menuItems": [
+      { "name": "Shahi Paneer", "price": "₹200" },
+      { "name": "Dal Makhni", "price": "₹100" },
+      { "name": "Rice", "price": "₹50" },
+      { "name": "Mix Veg", "price": "₹100" },
+      { "name": "Mushroom", "price": "₹50" },
+      { "name": "Pizza", "price": "₹150" },
+      { "name": "Pasta", "price": "₹100" },
+      { "name": "Ice Cream", "price": "₹50" },
+      { "name": "Garlic Naan", "price": "₹20" }
+    ],
+    "addressList": [
+      {
+        "address": "31 South Bombay",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "123456",
+        "phone": "9876543210"
+      }
+    ],
+    "reviews": [
+      {
+        "userName": "amit123",
+        "review": "It was very good experience"
+      },
+      {
+        "userName": "divya456",
+        "review": "Great food, Great place"
+      }
+    ]
+  },
+  {
+    "restaurantName": "The Spice Factory",
+    "menuItems": [
+      { "name": "Shahi Paneer", "price": "₹200" },
+      { "name": "Dal Makhni", "price": "₹100" },
+      { "name": "Rice", "price": "₹50" },
+      { "name": "Mix Veg", "price": "₹100" },
+      { "name": "Mushroom", "price": "₹50" },
+      { "name": "Pizza", "price": "₹150" },
+      { "name": "Pasta", "price": "₹100" },
+      { "name": "Ice Cream", "price": "₹50" },
+      { "name": "Garlic Naan", "price": "₹20" }
+    ],
+    "addressList": [
+      {
+        "address": "31 South Bombay",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "123456",
+        "phone": "9876543210"
+      }
+    ],
+    "reviews": [
+      {
+        "userName": "amit123",
+        "review": "It was very good experience"
+      },
+      {
+        "userName": "divya456",
+        "review": "Great food, Great place"
+      }
+    ]
+  },
+  {
+    "restaurantName": "Gamell",
+    "menuItems": [
+      { "name": "Shahi Paneer", "price": "₹200" },
+      { "name": "Dal Makhni", "price": "₹100" },
+      { "name": "Rice", "price": "₹50" },
+      { "name": "Mix Veg", "price": "₹100" },
+      { "name": "Mushroom", "price": "₹50" },
+      { "name": "Pizza", "price": "₹150" },
+      { "name": "Pasta", "price": "₹100" },
+      { "name": "Ice Cream", "price": "₹50" },
+      { "name": "Garlic Naan", "price": "₹20" }
+    ],
+    "addressList": [
+      {
+        "address": "31 South Bombay",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "123456",
+        "phone": "9876543210"
+      }
+    ],
+    "reviews": [
+      {
+        "userName": "amit123",
+        "review": "It was very good experience"
+      },
+      {
+        "userName": "divya456",
+        "review": "Great food, Great place"
+      }
+    ]
+  },
+  {
+    "restaurantName": "The Paneer Bar.",
+    "menuItems": [
+      { "name": "Shahi Paneer", "price": "₹200" },
+      { "name": "Dal Makhni", "price": "₹100" },
+      { "name": "Rice", "price": "₹50" },
+      { "name": "Mix Veg", "price": "₹100" },
+      { "name": "Mushroom", "price": "₹50" },
+      { "name": "Pizza", "price": "₹150" },
+      { "name": "Pasta", "price": "₹100" },
+      { "name": "Ice Cream", "price": "₹50" },
+      { "name": "Garlic Naan", "price": "₹20" }
+    ],
+    "addressList": [
+      {
+        "address": "31 South Bombay",
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "pincode": "100444",
+        "phone": "9876543210"
+      }
+    ],
+    "reviews": [
+      {
+        "userName": "amit123",
+        "review": "It was very good experience"
+      },
+      {
+        "userName": "divya456",
+        "review": "Great food, Great place"
+      }
+    ]
+  }
+]

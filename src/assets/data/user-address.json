@@ -1,0 +1,20 @@
+[
+  {
+    "type": "Home",
+    "address": "234 Spring Field",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "pincode": "435265",
+    "phone": "9876543210",
+    "selected": false
+  },
+  {
+    "type": "Office",
+    "address": "12 DLF Park",
+    "city": "Amritsar",
+    "state": "Punjab",
+    "pincode": "123543",
+    "phone": "9876543210",
+    "selected": false
+  }
+]
