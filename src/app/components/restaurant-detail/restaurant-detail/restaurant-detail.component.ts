@@ -1,3 +1,7 @@
+/**
+ * @author Amit Singh
+ */
+
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { RestaurantListService } from '../../../services/restaurant-list.service';

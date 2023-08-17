@@ -1,3 +1,7 @@
+/**
+ * @author Amit Singh
+ */
+
 import { Injectable } from '@angular/core';
 import { AngularFireAuth } from '@angular/fire/compat/auth';
 import { BehaviorSubject, from, Observable, of, Subject } from 'rxjs';

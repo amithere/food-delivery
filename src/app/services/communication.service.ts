@@ -1,3 +1,7 @@
+/**
+ * @author Amit Singh
+ */
+
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, from, Observable } from 'rxjs';
 

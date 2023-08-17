@@ -1,3 +1,7 @@
+/**
+ * @author Amit Singh
+ */
+
 import { Component, OnInit } from '@angular/core';
 import { CartItem } from '../../models/cart-item';
 import { RestaurantListService } from 'src/app/services/restaurant-list.service';

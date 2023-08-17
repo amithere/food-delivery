@@ -1,3 +1,7 @@
+/**
+ * @author Amit Singh
+ */
+
 import { Component, OnInit } from '@angular/core';
 import {
   FormBuilder,
