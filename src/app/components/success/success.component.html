@@ -1,2 +1,34 @@
-<h2>Order Successful!</h2>
-<h5>It will be delivered soon!</h5>
+<br />
+<h2 style="text-align: center">Order Successful!</h2>
+<br />
+<div class="stepper-horizontal" id="stepper1">
+  <div class="step editing">
+    <div class="step-circle"><span>1</span></div>
+    <div class="step-title">Ordered</div>
+    <div class="step-bar-left"></div>
+    <div class="step-bar-right"></div>
+  </div>
+  <div class="step">
+    <div class="step-circle"><span>2</span></div>
+    <div class="step-title">Accepted By Restaurant</div>
+    <div class="step-bar-left"></div>
+    <div class="step-bar-right"></div>
+  </div>
+  <div class="step">
+    <div class="step-circle"><span>3</span></div>
+    <div class="step-title">On The Way</div>
+    <div class="step-bar-left"></div>
+    <div class="step-bar-right"></div>
+  </div>
+  <div class="step">
+    <div class="step-circle"><span>4</span></div>
+    <div class="step-title">Delivered</div>
+    <div class="step-bar-left"></div>
+    <div class="step-bar-right"></div>
+  </div>
+</div>
+<br />
+<br />
+<h2 *ngIf="currentStep == numSteps" style="text-align: center">
+  Enjoy your meal, See you again !!
+</h2>
